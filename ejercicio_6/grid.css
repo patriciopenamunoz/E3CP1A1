@@ -1,0 +1,21 @@
+.row {
+  clear: both;
+}
+.row>.cell-md-33,.row>.cell-md-100,.row>.cell-sm-100 {
+  float: left;
+}
+/* ------------------------------------------------------------------ */
+@media (max-width: 480px) {
+  .row>.cell-sm-100 {
+    width: 100%;
+  }
+}
+/* ------------------------------------------------------------------ */
+@media (min-width: 481px) {
+  .row>.cell-md-100 {
+    width: 100%;
+  }
+  .row>.cell-md-33 {
+    width: 33%;
+  }
+}
